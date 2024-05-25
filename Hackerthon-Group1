@@ -1,0 +1,172 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Teacher's nav content section -->
+    <div class="teacherNav">
+        <div class="teacherNavCont">
+            <!-- Teacher's profile nav section -->
+            <div class="PfNav">
+                <a href="#" class="pfA"><img src="./Assets/img/PfImg.jpg" alt="" class="pfImg"></a>
+                <div class="pfNavLinks">
+                    <div class="pfALink">
+
+                        <a href="#" class=""><img src="./Assets/img/PfImg.jpg" alt="" class="pfImgLink"></a>
+                        <h2 class="pfName"><a href="#" class="pfNameLink">MAdubuike Anthony</a></h2>
+
+                    </div>
+                    <div class="pfATextLink">
+                        <p class="pfText"><a href="#" class="pfTextLink">Communication</a></p>
+                        <p class="pfText"><a href="#" class="pfTextLink">Student Profile</a></p>
+                        <p class="pfText"><a href="" class="pfTextLink">Grade Book</a></p>
+                        <p class="pfText"><a href="#" class="pfTextLink">Resources</a></p>
+                        <hr>
+                        <p class="pfText"><a href="" class="pfTextLink">Login</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- teacher's nav section -->
+            <div class="teacherNavLinks">
+                <p class="teacherNavP"><a href="teacher.html" class="teacherNavA">Home</a></p>
+                <p class="teacherNavP"><a href="student.html" class="teacherNavA">Dashboard</a></p>
+                <p class="teacherNavP"><a href="" class="teacherNavA">Reports/analyticcs</a></p>
+                <p class="teacherNavP"><a href="#" class="teacherNavA">Class-Management</a></p>
+                <img src="/list.svg" alt="" class="navListIcon">
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Html Structure for teacher's profile -->
+    <div class="teacherProfile">
+        <div class="teacherProfileCont">
+            <div class="teacherProfileIcon">
+                <a href="#" class="teacherProfileLinks"><img src="./Assets/icons/grade.svg" alt=""></a>
+                <a href="#" class="teacherProfileLinks"><img src="./Assets/icons/message.svg" alt=""></a>
+                <a href="#" class="teacherProfileLinks"><img src="./Assets/icons/studentIcon.svg" alt=""></a>
+                <a href="#" class="teacherProfileLinks"><img src="./Assets/icons/feedback.svg" alt=""></a>
+            </div>
+            <div class="teacherProfileDetails">
+                <h1 class="teacherName">MAdubuike Anthony</h1>
+                <h3 class="teacherGrade">Grade 1-2</h3>
+                <p class="teacherBio">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, dolorum
+                    voluptate minus iusto tenetur hic.</p>
+            </div>
+            <div class="teacherImgCont">
+                <img src="/Assets/img/PfImg.jpg" alt="" class="teacherImg">
+            </div>
+
+
+        </div>
+    </div>
+    <div class="studentSection">
+        <div class="teacherStudentList">
+            <div class="teacherStudentListCont">
+                <div class="teacherStudentNav">
+                    <div class="teacherStudentNavCont">
+                        <button class="teacherStudentNavBtn">Grade(7)</button>
+                        <button class="teacherStudentNavBtn">Grade(9)</button>
+                        <button class="teacherStudentNavBtn">Grade(5)</button>
+                    </div>
+                </div>
+                <input type="text" class="teacherStudentSearch" placeholder="Search for a student">
+                <div class="teacherStudentMini">
+                    <div class="teacherStudentMiniCont">
+                        <div class="teacherStudentMiniText">
+                            <h2 class="teacherStudentMiniName">Hk Monica</h2>
+                            <h3 class="teacherStudentMiniGrade">SS2c</h3>
+                        </div>
+                        <img src="/Assets/img/PfImg.jpg" alt="" class="teacherStudentMiniImg">
+                        <hr class="teacherStudentHr">
+                    </div>
+                </div>
+                <div class="teacherStudentMini">
+                    <div class="teacherStudentMiniCont">
+                        <div class="teacherStudentMiniText">
+                            <h2 class="teacherStudentMiniName">Majesty Joseph</h2>
+                            <h3 class="teacherStudentMiniGrade">SS2c</h3>
+                        </div>
+                        <img src="/Assets/img/PfImg.jpg" alt="" class="teacherStudentMiniImg">
+                        <hr class="teacherStudentHr">
+                    </div>
+                </div>
+
+                <div class="teacherStudentMini">
+                    <div class="teacherStudentMiniCont">
+                        <div class="teacherStudentMiniText">
+                            <h2 class="teacherStudentMiniName">Majesty Joseph</h2>
+                            <h3 class="teacherStudentMiniGrade">SS2c</h3>
+                        </div>
+                        <img src="/Assets/img/PfImg.jpg" alt="" class="teacherStudentMiniImg">
+                        <hr class="teacherStudentHr">
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="studentMiniProfile">
+            <div class="studentMiniProfileCont">
+                <img src="/Assets/img/PfImg.jpg" alt="" class="studentProfileImg">
+                <div class="studentMiniProfileHeader">
+                    <h1 class="studentName">Hk Monica</h1>
+                    <h2 class="studentClass">SS2c</h2>
+                    <button class="StudentMiniInfoBtn"><img src="./Assets/img/info.svg" alt=""
+                            class="StudentMiniInfoLogo"></button>
+                </div>
+                <hr class="studentProfileHr">
+                <button class="Upload"><img src="./Assets/icons/add.svg" alt=""></button>
+                <div class="studentMiniProfilCourses">
+                    <h2 class="StudentCourses">Courses</h2>
+                    <div class="studentMiniCourses">
+                        <div class="studentMiniCoursesGroup">
+                            <h3 class="studentPerformText">Mathematics</h3><button
+                                class="StudentMiniPerformBtn">Performance</button>
+                        </div>
+                        <div class="studentMiniCoursesGroup">
+                            <h3 class="studentPerformText">English</h3><button
+                                class="StudentMiniPerformBtn">Performance</button>
+                        </div>
+                        <div class="studentMiniCoursesGroup">
+                            <h3 class="studentPerformText">Chemistry</h3><button
+                                class="StudentMiniPerformBtn">Performance</button>
+                        </div>
+                        <div class="studentMiniCoursesGroup">
+                            <h3 class="studentPerformText">Physiscs</h3><button
+                                class="StudentMiniPerformBtn">Performance</button>
+                        </div>
+
+                    </div>
+                    <hr>
+
+                    <div class="studentMiniProfileComment">
+                        <h2 class="commentHeader">comment on Hk</h2>
+                        <textarea name="comment" id="stundentMiniProfileComment" class="stundentMiniProfiletextarea"
+                            cols="50" rows="2"></textarea>
+                        <button class="postComment"><img src="./Assets/icons/send.svg" alt="post"
+                                class="postCommentImg"></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</html>
