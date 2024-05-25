@@ -1,0 +1,41 @@
+h1 {
+    font-size: 30px;
+    text-align: center; 
+    color: blue; /*this is a styling for all the H1 element*/
+}
+
+li a{
+    text-decoration: none;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}   
+
+li a:hover{
+    background-color:blue;
+    color: white;
+    border-radius:10px;
+    padding: 4px;
+}
+
+.hero{
+    color:blue;
+    text-align:center;
+    background-size: 300px;
+    background-image: url("C:/Users/user/Downloads/download.jpg");
+    border-style:solid;
+    border-color: blueviolet;
+    padding: 20px;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+
+
+
